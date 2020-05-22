@@ -1,0 +1,1 @@
+ERROR    web_test:Log.py:45 出错啦错误是'NoneType' object has no attribute 'is_displayed'

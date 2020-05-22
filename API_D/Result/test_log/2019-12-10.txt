@@ -1,0 +1,106 @@
+[2019-12-10 20:27:48,578]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行register模块1条用例，测试数据是{'mobilephone':'13245679324','pwd':'123456'}
+[2019-12-10 20:27:48,874]-[ERROR]-[log_module.py-test_log]-[日志信息]:出错啦错误是{'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'} != {'status': 0, 'code': '20110', 'data': None, 'msg': '手机号码已被注册'}
+- {'code': '10001', 'data': None, 'msg': '注册成功', 'status': 1}
+?             ---                           --             ^
+
++ {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0}
+?           +++                           ++++++               ^
+
+[2019-12-10 20:27:48,934]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}，测试结果是：FAILED
+[2019-12-10 20:27:48,937]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行register模块2条用例，测试数据是{'mobilephone':'13541781424','pwd':''}
+[2019-12-10 20:27:49,120]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}，测试结果是：PASS
+[2019-12-10 20:27:49,120]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行register模块3条用例，测试数据是{'mobilephone':'83541781424','pwd':'123456','regname':'xiaoming'}
+[2019-12-10 20:27:50,541]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}，测试结果是：PASS
+[2019-12-10 20:27:50,542]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行register模块4条用例，测试数据是{'mobilephone':'18296208160','pwd':'12345'}
+[2019-12-10 20:27:50,742]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}，测试结果是：PASS
+[2019-12-10 20:27:50,742]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行register模块5条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-12-10 20:27:50,751]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-12-10 20:27:51,057]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":null,"msg":"登录成功"}，测试结果是：PASS
+[2019-12-10 20:27:51,058]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块7条用例，测试数据是{'mobilephone':'','pwd':'123456'}
+[2019-12-10 20:27:51,266]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}，测试结果是：PASS
+[2019-12-10 20:27:51,267]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块8条用例，测试数据是{'mobilephone':'13541781424','pwd':''}
+[2019-12-10 20:27:51,515]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}，测试结果是：PASS
+[2019-12-10 20:27:51,516]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块9条用例，测试数据是{'mobilephone':'13541781424','pwd':'1234567'}
+[2019-12-10 20:27:51,834]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}，测试结果是：PASS
+[2019-12-10 20:27:51,835]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块10条用例，测试数据是{'mobilephone':'18296208190','pwd':'123456'}
+[2019-12-10 20:27:52,120]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}，测试结果是：PASS
+[2019-12-10 20:27:52,442]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块11条用例，测试数据是{'mobilephone':'13541781424','amount':'200'}
+[2019-12-10 20:27:52,973]-[ERROR]-[log_module.py-test_log]-[日志信息]:出错啦错误是{'sta[36 chars]id': 1123484, 'regname': '小蜜蜂', 'pwd': 'E10ADC[146 chars]值成功'} != {'sta[36 chars]id': 228735, 'regname': '小蜜蜂', 'pwd': 'E10ADC3[145 chars]值成功'}
+Diff is 647 characters long. Set self.maxDiff to None to see it.
+[2019-12-10 20:27:53,016]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":{"id":228735,"regname":"小蜜蜂","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13541781424","leaveamount":"115200.00","type":"1","regtime":"2019-12-03 16:52:06.0"},"msg":"充值成功"}，测试结果是：FAILED
+[2019-12-10 20:27:53,017]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块12条用例，测试数据是{'mobilephone':'','amount':'1000'}
+[2019-12-10 20:27:53,215]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}，测试结果是：PASS
+[2019-12-10 20:27:53,216]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块13条用例，测试数据是{'mobilephone':'13541781424','amount':' '}
+[2019-12-10 20:27:53,417]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20118","data":null,"msg":"请输入数字"}，测试结果是：PASS
+[2019-12-10 20:27:53,417]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块14条用例，测试数据是{'mobilephone':'23541781424','amount':'10003'}
+[2019-12-10 20:27:53,589]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}，测试结果是：PASS
+[2019-12-10 20:27:53,589]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块15条用例，测试数据是{'mobilephone':'13541781424','amount':'-1000'}
+[2019-12-10 20:27:53,787]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20117","data":null,"msg":"请输入范围在0到50万之间的正数金额"}，测试结果是：PASS
+[2019-12-10 20:48:05,218]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行register模块1条用例，测试数据是{'mobilephone':'13245679327','pwd':'123456'}
+[2019-12-10 20:48:05,466]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行register模块2条用例，测试数据是{'mobilephone':'13541781424','pwd':''}
+[2019-12-10 20:48:07,655]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}，测试结果是：PASS
+[2019-12-10 20:48:07,657]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行register模块3条用例，测试数据是{'mobilephone':'83541781424','pwd':'123456','regname':'xiaoming'}
+[2019-12-10 20:48:08,362]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}，测试结果是：PASS
+[2019-12-10 20:48:08,363]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行register模块4条用例，测试数据是{'mobilephone':'18296208160','pwd':'12345'}
+[2019-12-10 20:48:08,577]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}，测试结果是：PASS
+[2019-12-10 20:48:08,578]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行register模块5条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-12-10 20:48:08,586]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-12-10 20:48:09,672]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":null,"msg":"登录成功"}，测试结果是：PASS
+[2019-12-10 20:48:09,673]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块7条用例，测试数据是{'mobilephone':'','pwd':'123456'}
+[2019-12-10 20:48:09,960]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}，测试结果是：PASS
+[2019-12-10 20:48:09,961]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块8条用例，测试数据是{'mobilephone':'13541781424','pwd':''}
+[2019-12-10 20:48:10,147]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}，测试结果是：PASS
+[2019-12-10 20:48:10,148]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块9条用例，测试数据是{'mobilephone':'13541781424','pwd':'1234567'}
+[2019-12-10 20:48:10,478]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}，测试结果是：PASS
+[2019-12-10 20:48:10,479]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块10条用例，测试数据是{'mobilephone':'18296208190','pwd':'123456'}
+[2019-12-10 20:48:10,784]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}，测试结果是：PASS
+[2019-12-10 20:48:11,034]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块11条用例，测试数据是{'mobilephone':'13541781424','amount':'200'}
+[2019-12-10 20:48:11,517]-[ERROR]-[log_module.py-test_log]-[日志信息]:出错啦错误是{'sta[36 chars]id': 1123484, 'regname': '小蜜蜂', 'pwd': 'E10ADC[146 chars]值成功'} != {'sta[36 chars]id': 228735, 'regname': '小蜜蜂', 'pwd': 'E10ADC3[145 chars]值成功'}
+Diff is 647 characters long. Set self.maxDiff to None to see it.
+[2019-12-10 20:48:11,557]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":{"id":228735,"regname":"小蜜蜂","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13541781424","leaveamount":"115400.00","type":"1","regtime":"2019-12-03 16:52:06.0"},"msg":"充值成功"}，测试结果是：FAILED
+[2019-12-10 20:48:11,559]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块12条用例，测试数据是{'mobilephone':'','amount':'1000'}
+[2019-12-10 20:48:11,758]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}，测试结果是：PASS
+[2019-12-10 20:48:11,759]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块13条用例，测试数据是{'mobilephone':'13541781424','amount':' '}
+[2019-12-10 20:48:11,956]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20118","data":null,"msg":"请输入数字"}，测试结果是：PASS
+[2019-12-10 20:48:11,957]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块14条用例，测试数据是{'mobilephone':'23541781424','amount':'10003'}
+[2019-12-10 20:48:12,181]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}，测试结果是：PASS
+[2019-12-10 20:48:12,183]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块15条用例，测试数据是{'mobilephone':'13541781424','amount':'-1000'}
+[2019-12-10 20:48:12,366]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20117","data":null,"msg":"请输入范围在0到50万之间的正数金额"}，测试结果是：PASS
+[2019-12-10 20:52:21,508]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行register模块1条用例，测试数据是{'mobilephone':'13245679332','pwd':'123456'}
+[2019-12-10 20:52:21,793]-[ERROR]-[log_module.py-test_log]-[日志信息]:出错啦错误是{'status': 1, 'code': '10001', 'data': None, 'msg': '注册成功'} != {'status': 0, 'code': '20110', 'data': None, 'msg': '手机号码已被注册'}
+- {'code': '10001', 'data': None, 'msg': '注册成功', 'status': 1}
+?             ---                           --             ^
+
++ {'code': '20110', 'data': None, 'msg': '手机号码已被注册', 'status': 0}
+?           +++                           ++++++               ^
+
+[2019-12-10 20:52:21,838]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}，测试结果是：FAILED
+[2019-12-10 20:52:21,840]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行register模块2条用例，测试数据是{'mobilephone':'13541781424','pwd':''}
+[2019-12-10 20:52:22,022]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}，测试结果是：PASS
+[2019-12-10 20:52:22,023]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行register模块3条用例，测试数据是{'mobilephone':'83541781424','pwd':'123456','regname':'xiaoming'}
+[2019-12-10 20:52:22,194]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}，测试结果是：PASS
+[2019-12-10 20:52:22,194]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行register模块4条用例，测试数据是{'mobilephone':'18296208160','pwd':'12345'}
+[2019-12-10 20:52:22,408]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}，测试结果是：PASS
+[2019-12-10 20:52:22,410]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行register模块5条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-12-10 20:52:22,414]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-12-10 20:52:22,739]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":null,"msg":"登录成功"}，测试结果是：PASS
+[2019-12-10 20:52:22,740]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块7条用例，测试数据是{'mobilephone':'','pwd':'123456'}
+[2019-12-10 20:52:22,941]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}，测试结果是：PASS
+[2019-12-10 20:52:22,942]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块8条用例，测试数据是{'mobilephone':'13541781424','pwd':''}
+[2019-12-10 20:52:23,137]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}，测试结果是：PASS
+[2019-12-10 20:52:23,138]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块9条用例，测试数据是{'mobilephone':'13541781424','pwd':'1234567'}
+[2019-12-10 20:52:23,456]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}，测试结果是：PASS
+[2019-12-10 20:52:23,457]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块10条用例，测试数据是{'mobilephone':'18296208190','pwd':'123456'}
+[2019-12-10 20:52:23,763]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}，测试结果是：PASS
+[2019-12-10 20:52:23,970]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块11条用例，测试数据是{'mobilephone':'13541781424','amount':'200'}
+[2019-12-10 20:52:24,427]-[ERROR]-[log_module.py-test_log]-[日志信息]:出错啦错误是{'sta[36 chars]id': 1123484, 'regname': '小蜜蜂', 'pwd': 'E10ADC[146 chars]值成功'} != {'sta[36 chars]id': 228735, 'regname': '小蜜蜂', 'pwd': 'E10ADC3[145 chars]值成功'}
+Diff is 645 characters long. Set self.maxDiff to None to see it.
+[2019-12-10 20:52:24,469]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":{"id":228735,"regname":"小蜜蜂","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13541781424","leaveamount":"115600.00","type":"1","regtime":"2019-12-03 16:52:06.0"},"msg":"充值成功"}，测试结果是：FAILED
+[2019-12-10 20:52:24,471]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块12条用例，测试数据是{'mobilephone':'','amount':'1000'}
+[2019-12-10 20:52:24,656]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}，测试结果是：PASS
+[2019-12-10 20:52:24,658]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块13条用例，测试数据是{'mobilephone':'13541781424','amount':' '}
+[2019-12-10 20:52:24,842]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20118","data":null,"msg":"请输入数字"}，测试结果是：PASS
+[2019-12-10 20:52:24,843]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块14条用例，测试数据是{'mobilephone':'23541781424','amount':'10003'}
+[2019-12-10 20:52:25,019]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}，测试结果是：PASS
+[2019-12-10 20:52:25,020]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块15条用例，测试数据是{'mobilephone':'13541781424','amount':'-1000'}
+[2019-12-10 20:52:25,193]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":0,"code":"20117","data":null,"msg":"请输入范围在0到50万之间的正数金额"}，测试结果是：PASS

@@ -1,0 +1,9 @@
+# -*- coding:utf-8 -*-
+
+platformName: Android
+platformVersion: 5.1
+deviceName:  Android Emulator
+appPackage: com.android.browser
+appActivity: com.android.browser.BrowserActivity
+#app:  D:\apk\taobao.apk
+no Reset: False

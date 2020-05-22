@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>这是一个登录页面</title>
+    </head>
+    <body>
+       登录名
+       <input type="text" name="log" id="hf" value="小明" >
+        <div>密 码
+            <input type="password" name="pwd" id="kk" value="123456" style="margin-left:11px">
+            <div>你的性别是:
+                <input checked type="radio" name="sex" value="man"> 男
+                <input type="radio" name="sex" value="woman"> 女
+            </div>
+            <div>你的兴趣爱好是
+                <input type="checkbox" name="hobby" value="go fishing"> 钓鱼
+                <input  checked type="checkbox" name="hobby" value="runing"> 跑步
+            </div>
+            <div>最喜欢的小说是:
+                <input type="file">
+            </div>
+            备注：
+            <br>
+                <textarea  style="width:300px"  readonly></textarea>
+        </div>
+        <div>
+            <a src="https://www.baidu.com">
+                <input  style="color:green" type=submit name="df" id="rd" value="登录" onclick="aleatLogin()">
+                <input  style="color:red" type=submit name="we" id="fv" value="重置" onclick="ClearData()">
+            </a>
+        </div>
+        <script>
+//          获取用户名和密码并且重新赋值为空
+            function ClearData(){
+                //清除用户名
+                document.getElementById('hf').value=''
+                //清除密码
+                document.getElementById('kk').value=''
+            }
+//          输出用户名和密码
+            function aleatLogin(){
+                //获取登录用户名
+                var username=document.getElementById("hf").value;
+                //获取登录密码
+                var password=document.getElementById("kk").value;
+                alert("用户名是："+username+'，'+"密码是："+password);
+            }
+
+        </script>
+    </body>
+</html>

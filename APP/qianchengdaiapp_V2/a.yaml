@@ -1,0 +1,5 @@
+# -*- coding:utf-8 -*-
+caps:
+    platformName: Android                                           # 操作系统
+    platformVersion: 5.1                                      # 版本
+    deviceName: Android Emulator

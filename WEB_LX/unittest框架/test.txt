@@ -1,0 +1,8 @@
+test_001_two_positive (unittest框架.test_case.TestAdd) ... ok
+test_002_two_negative (unittest框架.test_case.TestAdd) ... ok
+test_003_negative_positive (unittest框架.test_case.TestAdd) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+OK

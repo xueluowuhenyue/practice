@@ -1,0 +1,4 @@
+[2019-03-18 22:03:53,026]-[INFO]-[log_module.py-test_log]-日志信息:正在执行register模块1条用例，测试数据是{'mobilephone':'13245679026','pwd':'123456'}
+[2019-03-18 22:03:53,208]-[INFO]-[log_module.py-test_log]-日志信息:实际结果是{"status":1,"code":"10001","data":null,"msg":"注册成功"}，测试结果是：PASS
+[2019-03-18 22:05:10,211]-[INFO]-[log_module.py-test_log]-日志信息:正在执行register模块1条用例，测试数据是{'mobilephone':'13245679027','pwd':'123456'}
+[2019-03-18 22:05:10,418]-[INFO]-[log_module.py-test_log]-日志信息:实际结果是{"status":1,"code":"10001","data":null,"msg":"注册成功"}，测试结果是：PASS

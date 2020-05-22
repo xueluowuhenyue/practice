@@ -1,0 +1,10 @@
+# -*- coding:utf-8 -*-
+
+platformName: Android                                          # 操作系统
+platformVersion : 7.1                                          # 版本
+deviceName : Android Emulator
+appActivity : com.xxzb.fenwoo.activity.addition.WelcomeActivity   # 入口
+appPackage : com.xxzb.fenwoo                                      # 包名
+#app: D:\apk\qianchengdai-Future-release-2018.apk                                # 文件路径
+automationName : UiAutomator2
+noReset : True                                             # false重置,True不重置

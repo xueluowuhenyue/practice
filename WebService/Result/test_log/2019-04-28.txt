@@ -1,0 +1,48 @@
+[2019-04-28 21:13:08,412]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行sendmsg模块1条用例，测试数据是{'client_ip':'192.168.1.225','tmpl_id':1,'mobile':'18296207778'}
+[2019-04-28 21:13:08,976]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是(result){
+   retCode = "0"
+   retInfo = "ok"
+ }，测试结果是：FAILED
+[2019-04-28 21:13:08,977]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行sendmsg模块2条用例，测试数据是{'client_ip':'192.168.1.225','tmpl_id':1,'mobile':'1369654123'}
+[2019-04-28 21:13:09,141]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是Server raised fault: '手机号码错误'，测试结果是：PASS
+[2019-04-28 21:13:09,142]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行sendmsg模块3条用例，测试数据是{'client_ip':'192.168.1.225','tmpl_id':1,'mobile':'1369654123254'}
+[2019-04-28 21:13:09,287]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是Server raised fault: '手机号码错误'，测试结果是：PASS
+[2019-04-28 21:13:09,287]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行sendmsg模块4条用例，测试数据是{'client_ip':'192.168.1.225','tmpl_id':1,'mobile':''}
+[2019-04-28 21:13:09,449]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是Server raised fault: '手机号码错误'，测试结果是：PASS
+[2019-04-28 21:13:09,450]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行register模块6条用例，测试数据是{'verify_code':'00000','user_id':'18296207778','channel_id':'1','pwd':'123456','mobile':'18296207778','ip':'192.168.1.107'}
+[2019-04-28 21:13:09,797]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行register模块7条用例，测试数据是{'verify_code':'fverifyCode','user_id':'18296207778','channel_id':'1','pwd':'123456','mobile':'18296207778','ip':'192.168.1.107'}
+[2019-04-28 21:13:09,821]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行register模块8条用例，测试数据是{'verify_code':'fverifyCode','user_id':'18296207778','channel_id':'1','pwd':'123456','mobile':'1358634952468','ip':'192.168.1.107'}
+[2019-04-28 21:13:09,841]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行register模块9条用例，测试数据是{'verify_code':'865562','user_id':'18296208167','channel_id':'1','pwd':'123456','mobile':'18296208167','ip':'192.168.1.107'}
+[2019-04-28 21:13:09,876]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行sendmsg模块1条用例，测试数据是{'client_ip':'192.168.1.225','tmpl_id':1,'mobile':'18296207778'}
+[2019-04-28 21:13:09,935]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是Method not found: 'SMSServiceImplService.SMSServiceImplPort.userRegister'，测试结果是：PASS
+[2019-04-28 21:13:09,937]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行sendmsg模块2条用例，测试数据是{'client_ip':'192.168.1.225','tmpl_id':1,'mobile':'1369654123'}
+[2019-04-28 21:13:10,019]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是Method not found: 'SMSServiceImplService.SMSServiceImplPort.userRegister'，测试结果是：None
+[2019-04-28 21:13:10,021]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行sendmsg模块3条用例，测试数据是{'client_ip':'192.168.1.225','tmpl_id':1,'mobile':'1369654123254'}
+[2019-04-28 21:13:10,080]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是Method not found: 'SMSServiceImplService.SMSServiceImplPort.userRegister'，测试结果是：None
+[2019-04-28 21:13:10,082]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行sendmsg模块4条用例，测试数据是{'client_ip':'192.168.1.225','tmpl_id':1,'mobile':''}
+[2019-04-28 21:13:10,145]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是Method not found: 'SMSServiceImplService.SMSServiceImplPort.userRegister'，测试结果是：None
+[2019-04-28 21:13:10,342]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行register模块5条用例，测试数据是{'verify_code':'466568','user_id':'18296207778','channel_id':'1','pwd':'123456','mobile':'18296207778','ip':'192.168.1.107'}
+[2019-04-28 21:13:11,247]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是(commResult){
+   retCode = "0"
+   retInfo = "ok"
+ }，测试结果是：PASS
+[2019-04-28 21:13:11,248]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行register模块6条用例，测试数据是{'verify_code':'00000','user_id':'18296207778','channel_id':'1','pwd':'123456','mobile':'18296207778','ip':'192.168.1.107'}
+[2019-04-28 21:13:11,462]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是(commResult){
+   retCode = "20042003"
+   retInfo = "该用户已存在"
+ }，测试结果是：PASS
+[2019-04-28 21:13:11,462]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行register模块7条用例，测试数据是{'verify_code':'466568','user_id':'18296207778','channel_id':'1','pwd':'123456','mobile':'18296207778','ip':'192.168.1.107'}
+[2019-04-28 21:13:11,690]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是(commResult){
+   retCode = "20042003"
+   retInfo = "该用户已存在"
+ }，测试结果是：PASS
+[2019-04-28 21:13:11,690]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行register模块8条用例，测试数据是{'verify_code':'466568','user_id':'18296207778','channel_id':'1','pwd':'123456','mobile':'1358634952468','ip':'192.168.1.107'}
+[2019-04-28 21:13:11,930]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是(commResult){
+   retCode = "19001"
+   retInfo = "手机号错误"
+ }，测试结果是：PASS
+[2019-04-28 21:13:11,931]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行register模块9条用例，测试数据是{'verify_code':'865562','user_id':'18296208167','channel_id':'1','pwd':'123456','mobile':'18296208167','ip':'192.168.1.107'}
+[2019-04-28 21:13:12,162]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是(commResult){
+   retCode = "30010010"
+   retInfo = "验证码已过期"
+ }，测试结果是：PASS

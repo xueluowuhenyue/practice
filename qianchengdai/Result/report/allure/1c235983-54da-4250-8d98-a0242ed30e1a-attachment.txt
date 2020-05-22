@@ -1,0 +1,3 @@
+ERROR    web_test:Log.py:45 出错啦错误是Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.132)

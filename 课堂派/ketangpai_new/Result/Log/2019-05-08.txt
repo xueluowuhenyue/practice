@@ -1,0 +1,9 @@
+[2019-05-08 18:48:15,273]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行2条用例，测试数据是{'password':'123456'}
+[2019-05-08 18:48:18,862]-[INFO]-[log_module.py-test_log]-[日志信息]:测试结果是：pass
+[2019-05-08 18:51:43,330]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行1条用例，测试数据是{'password':'19931025'}
+[2019-05-08 18:51:46,799]-[INFO]-[log_module.py-test_log]-[日志信息]:测试结果是：pass
+[2019-05-08 18:56:52,297]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行1条用例，测试数据是{'code':'Y5JTNK'}
+[2019-05-08 18:57:05,313]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行2条用例，测试数据是{'code':'123546'}
+[2019-05-08 18:58:03,200]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行1条用例，测试数据是{'code':'L4GD4R'}
+[2019-05-08 18:58:11,785]-[INFO]-[log_module.py-test_log]-[日志信息]:测试结果是：pass
+[2019-05-08 18:58:14,963]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行2条用例，测试数据是{'code':'123546'}

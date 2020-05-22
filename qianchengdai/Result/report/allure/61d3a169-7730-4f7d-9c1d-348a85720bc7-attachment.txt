@@ -1,0 +1,10 @@
+INFO     web_test:Log.py:41 正在执行投标模块第7条测试用例,用例名字是:正常投资,项目名字是：第一个项目,投资金额是:100,期望结果:投标成功！
+ERROR    web_test:Log.py:45 出错啦错误是Message:
+INFO     web_test:Log.py:41 正在执行投标模块第7条测试用例,用例名字是:正常投资,项目名字是：第一个项目,投资金额是:100,期望结果:投标成功！
+ERROR    web_test:Log.py:45 出错啦错误是Message:
+INFO     web_test:Log.py:41 正在执行投标模块第7条测试用例,用例名字是:正常投资,项目名字是：第一个项目,投资金额是:100,期望结果:投标成功！
+ERROR    web_test:Log.py:45 出错啦错误是Message:
+INFO     web_test:Log.py:41 正在执行投标模块第7条测试用例,用例名字是:正常投资,项目名字是：第一个项目,投资金额是:100,期望结果:投标成功！
+ERROR    web_test:Log.py:45 出错啦错误是Message:
+INFO     web_test:Log.py:41 正在执行投标模块第7条测试用例,用例名字是:正常投资,项目名字是：第一个项目,投资金额是:100,期望结果:投标成功！
+ERROR    web_test:Log.py:45 出错啦错误是Message:

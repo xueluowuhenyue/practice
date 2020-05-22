@@ -1,0 +1,11 @@
+[2019-05-05 21:58:55,078]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行2条用例，测试数据是{'code':'L4GD4R'}
+[2019-05-05 21:58:59,148]-[INFO]-[log_module.py-test_log]-[日志信息]:测试结果是：pass
+[2019-05-05 22:04:30,403]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行2条用例，测试数据是{'code':'L4GD4R'}
+[2019-05-05 22:08:31,604]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行1条用例，测试数据是{'code':'L4GD4R'}
+[2019-05-05 22:08:36,065]-[INFO]-[log_module.py-test_log]-[日志信息]:测试结果是：None
+[2019-05-05 22:17:00,332]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行2条用例，测试数据是{'code':'L4GD4R'}
+[2019-05-05 22:17:04,320]-[INFO]-[log_module.py-test_log]-[日志信息]:测试结果是：pass
+[2019-05-05 22:24:00,717]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行1条用例，测试数据是{'code':'L4GD4R'}
+[2019-05-05 22:46:11,388]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行1条用例，测试数据是{'code':'L4GD4R'}
+[2019-05-05 22:46:44,106]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行2条用例，测试数据是{'code':'L4GD4R'}
+[2019-05-05 22:46:48,618]-[INFO]-[log_module.py-test_log]-[日志信息]:测试结果是：pass

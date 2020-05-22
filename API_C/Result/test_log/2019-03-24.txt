@@ -1,0 +1,404 @@
+[2019-03-24 21:03:24,432]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-03-24 21:03:24,725]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":null,"msg":"登录成功"}，测试结果是：PASS
+[2019-03-24 21:03:25,008]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块11条用例，测试数据是{'mobilephone':'13541781424','amount':'800'}
+[2019-03-24 21:03:25,221]-[ERROR]-[log_module.py-test_log]-[日志信息]:出错啦错误是{'sta[152 chars]t': 'money', 'type': '1', 'regtime': '2019-03-[26 chars]值成功'} != {'sta[152 chars]t': '683800.00', 'type': '1', 'regtime': '2019[30 chars]值成功'}
+  {'code': '10001',
+   'data': {'id': 1123484,
+-           'leaveamount': 'money',
+?                           ^^^^^
+
++           'leaveamount': '683800.00',
+?                           ^^^^^^^^^
+
+            'mobilephone': '13541781424',
+            'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+            'regname': '小蜜蜂',
+            'regtime': '2019-03-10 23:53:21.0',
+            'type': '1'},
+   'msg': '充值成功',
+   'status': 1}
+[2019-03-24 21:03:25,267]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":{"id":1123484,"regname":"小蜜蜂","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13541781424","leaveamount":"683800.00","type":"1","regtime":"2019-03-10 23:53:21.0"},"msg":"充值成功"}，测试结果是：FAILED
+[2019-03-24 21:05:12,529]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-03-24 21:05:12,758]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":null,"msg":"登录成功"}，测试结果是：PASS
+[2019-03-24 21:05:13,033]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块11条用例，测试数据是{'mobilephone':'13541781424','amount':'800'}
+[2019-03-24 21:05:13,223]-[ERROR]-[log_module.py-test_log]-[日志信息]:出错啦错误是{'sta[152 chars]t': 'money', 'type': '1', 'regtime': '2019-03-[26 chars]值成功'} != {'sta[152 chars]t': '684600.00', 'type': '1', 'regtime': '2019[30 chars]值成功'}
+  {'code': '10001',
+   'data': {'id': 1123484,
+-           'leaveamount': 'money',
+?                           ^^^^^
+
++           'leaveamount': '684600.00',
+?                           ^^^^^^^^^
+
+            'mobilephone': '13541781424',
+            'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+            'regname': '小蜜蜂',
+            'regtime': '2019-03-10 23:53:21.0',
+            'type': '1'},
+   'msg': '充值成功',
+   'status': 1}
+[2019-03-24 21:05:13,279]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":{"id":1123484,"regname":"小蜜蜂","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13541781424","leaveamount":"684600.00","type":"1","regtime":"2019-03-10 23:53:21.0"},"msg":"充值成功"}，测试结果是：FAILED
+[2019-03-24 21:08:20,748]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-03-24 21:08:20,924]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":null,"msg":"登录成功"}，测试结果是：PASS
+[2019-03-24 21:08:20,925]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块11条用例，测试数据是{'mobilephone':'13541781424','amount':'100'}
+[2019-03-24 21:08:21,411]-[ERROR]-[log_module.py-test_log]-[日志信息]:出错啦错误是{'sta[152 chars]t': 'money', 'type': '1', 'regtime': '2019-03-[26 chars]值成功'} != {'sta[152 chars]t': '684700.00', 'type': '1', 'regtime': '2019[30 chars]值成功'}
+  {'code': '10001',
+   'data': {'id': 1123484,
+-           'leaveamount': 'money',
+?                           ^^^^^
+
++           'leaveamount': '684700.00',
+?                           ^^^^^^^^^
+
+            'mobilephone': '13541781424',
+            'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+            'regname': '小蜜蜂',
+            'regtime': '2019-03-10 23:53:21.0',
+            'type': '1'},
+   'msg': '充值成功',
+   'status': 1}
+[2019-03-24 21:08:21,457]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":{"id":1123484,"regname":"小蜜蜂","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13541781424","leaveamount":"684700.00","type":"1","regtime":"2019-03-10 23:53:21.0"},"msg":"充值成功"}，测试结果是：FAILED
+[2019-03-24 21:09:59,665]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-03-24 21:09:59,931]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":null,"msg":"登录成功"}，测试结果是：PASS
+[2019-03-24 21:09:59,933]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块11条用例，测试数据是{'mobilephone':'13541781424','amount':'100'}
+[2019-03-24 21:10:00,439]-[ERROR]-[log_module.py-test_log]-[日志信息]:出错啦错误是{'sta[152 chars]t': 'money', 'type': '1', 'regtime': '2019-03-[26 chars]值成功'} != {'sta[152 chars]t': '684800.00', 'type': '1', 'regtime': '2019[30 chars]值成功'}
+  {'code': '10001',
+   'data': {'id': 1123484,
+-           'leaveamount': 'money',
+?                           ^^^^^
+
++           'leaveamount': '684800.00',
+?                           ^^^^^^^^^
+
+            'mobilephone': '13541781424',
+            'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+            'regname': '小蜜蜂',
+            'regtime': '2019-03-10 23:53:21.0',
+            'type': '1'},
+   'msg': '充值成功',
+   'status': 1}
+[2019-03-24 21:10:00,484]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":{"id":1123484,"regname":"小蜜蜂","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13541781424","leaveamount":"684800.00","type":"1","regtime":"2019-03-10 23:53:21.0"},"msg":"充值成功"}，测试结果是：FAILED
+[2019-03-24 21:11:37,690]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-03-24 21:12:18,014]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":null,"msg":"登录成功"}，测试结果是：PASS
+[2019-03-24 21:12:31,781]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块11条用例，测试数据是{'mobilephone':'13541781424','amount':'100'}
+[2019-03-24 21:13:52,219]-[ERROR]-[log_module.py-test_log]-[日志信息]:出错啦错误是{'sta[152 chars]t': 'money', 'type': '1', 'regtime': '2019-03-[26 chars]值成功'} != {'sta[152 chars]t': '684900.00', 'type': '1', 'regtime': '2019[30 chars]值成功'}
+  {'code': '10001',
+   'data': {'id': 1123484,
+-           'leaveamount': 'money',
+?                           ^^^^^
+
++           'leaveamount': '684900.00',
+?                           ^^^^^^^^^
+
+            'mobilephone': '13541781424',
+            'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+            'regname': '小蜜蜂',
+            'regtime': '2019-03-10 23:53:21.0',
+            'type': '1'},
+   'msg': '充值成功',
+   'status': 1}
+[2019-03-24 21:15:21,122]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-03-24 21:15:21,367]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":null,"msg":"登录成功"}，测试结果是：PASS
+[2019-03-24 21:15:21,368]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块11条用例，测试数据是{'mobilephone':'13541781424','amount':'100'}
+[2019-03-24 21:16:12,081]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-03-24 21:16:12,338]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":null,"msg":"登录成功"}，测试结果是：PASS
+[2019-03-24 21:16:12,339]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块11条用例，测试数据是{'mobilephone':'13541781424','amount':'100'}
+[2019-03-24 21:16:12,826]-[ERROR]-[log_module.py-test_log]-[日志信息]:出错啦错误是{'sta[152 chars]t': 'money', 'type': '1', 'regtime': '2019-03-[26 chars]值成功'} != {'sta[152 chars]t': '685100.00', 'type': '1', 'regtime': '2019[30 chars]值成功'}
+  {'code': '10001',
+   'data': {'id': 1123484,
+-           'leaveamount': 'money',
+?                           ^^^^^
+
++           'leaveamount': '685100.00',
+?                           ^^^^^^^^^
+
+            'mobilephone': '13541781424',
+            'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+            'regname': '小蜜蜂',
+            'regtime': '2019-03-10 23:53:21.0',
+            'type': '1'},
+   'msg': '充值成功',
+   'status': 1}
+[2019-03-24 21:16:12,891]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":{"id":1123484,"regname":"小蜜蜂","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13541781424","leaveamount":"685100.00","type":"1","regtime":"2019-03-10 23:53:21.0"},"msg":"充值成功"}，测试结果是：FAILED
+[2019-03-24 21:20:00,372]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-03-24 21:20:00,605]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":null,"msg":"登录成功"}，测试结果是：PASS
+[2019-03-24 21:20:00,606]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块11条用例，测试数据是{'mobilephone':'13541781424','amount':'100'}
+[2019-03-24 21:20:01,178]-[ERROR]-[log_module.py-test_log]-[日志信息]:出错啦错误是{'sta[152 chars]t': 'money', 'type': '1', 'regtime': '2019-03-[26 chars]值成功'} != {'sta[152 chars]t': '685200.00', 'type': '1', 'regtime': '2019[30 chars]值成功'}
+  {'code': '10001',
+   'data': {'id': 1123484,
+-           'leaveamount': 'money',
+?                           ^^^^^
+
++           'leaveamount': '685200.00',
+?                           ^^^^^^^^^
+
+            'mobilephone': '13541781424',
+            'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+            'regname': '小蜜蜂',
+            'regtime': '2019-03-10 23:53:21.0',
+            'type': '1'},
+   'msg': '充值成功',
+   'status': 1}
+[2019-03-24 21:20:01,224]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":{"id":1123484,"regname":"小蜜蜂","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13541781424","leaveamount":"685200.00","type":"1","regtime":"2019-03-10 23:53:21.0"},"msg":"充值成功"}，测试结果是：FAILED
+[2019-03-24 21:21:50,397]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-03-24 21:21:50,642]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":null,"msg":"登录成功"}，测试结果是：PASS
+[2019-03-24 21:21:50,643]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块11条用例，测试数据是{'mobilephone':'13541781424','amount':'100'}
+[2019-03-24 21:21:51,210]-[ERROR]-[log_module.py-test_log]-[日志信息]:出错啦错误是{'sta[152 chars]t': 'money', 'type': '1', 'regtime': '2019-03-[26 chars]值成功'} != {'sta[152 chars]t': '685300.00', 'type': '1', 'regtime': '2019[30 chars]值成功'}
+  {'code': '10001',
+   'data': {'id': 1123484,
+-           'leaveamount': 'money',
+?                           ^^^^^
+
++           'leaveamount': '685300.00',
+?                           ^^^^^^^^^
+
+            'mobilephone': '13541781424',
+            'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+            'regname': '小蜜蜂',
+            'regtime': '2019-03-10 23:53:21.0',
+            'type': '1'},
+   'msg': '充值成功',
+   'status': 1}
+[2019-03-24 21:21:51,256]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":{"id":1123484,"regname":"小蜜蜂","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13541781424","leaveamount":"685300.00","type":"1","regtime":"2019-03-10 23:53:21.0"},"msg":"充值成功"}，测试结果是：FAILED
+[2019-03-24 21:29:09,558]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-03-24 21:29:09,771]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":null,"msg":"登录成功"}，测试结果是：PASS
+[2019-03-24 21:29:09,772]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块11条用例，测试数据是{'mobilephone':'13541781424','amount':'100'}
+[2019-03-24 21:31:46,938]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-03-24 21:31:47,140]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":null,"msg":"登录成功"}，测试结果是：PASS
+[2019-03-24 21:31:47,141]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块11条用例，测试数据是{'mobilephone':'13541781424','amount':'100'}
+[2019-03-24 21:34:47,357]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-03-24 21:34:47,585]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":null,"msg":"登录成功"}，测试结果是：PASS
+[2019-03-24 21:34:47,586]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块11条用例，测试数据是{'mobilephone':'13541781424','amount':'100'}
+[2019-03-24 21:34:48,051]-[ERROR]-[log_module.py-test_log]-[日志信息]:出错啦错误是{'sta[152 chars]t': 'money', 'type': '1', 'regtime': '2019-03-[26 chars]值成功'} != {'sta[152 chars]t': '685600.00', 'type': '1', 'regtime': '2019[30 chars]值成功'}
+  {'code': '10001',
+   'data': {'id': 1123484,
+-           'leaveamount': 'money',
+?                           ^^^^^
+
++           'leaveamount': '685600.00',
+?                           ^^^^^^^^^
+
+            'mobilephone': '13541781424',
+            'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+            'regname': '小蜜蜂',
+            'regtime': '2019-03-10 23:53:21.0',
+            'type': '1'},
+   'msg': '充值成功',
+   'status': 1}
+[2019-03-24 21:34:48,097]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":{"id":1123484,"regname":"小蜜蜂","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13541781424","leaveamount":"685600.00","type":"1","regtime":"2019-03-10 23:53:21.0"},"msg":"充值成功"}，测试结果是：FAILED
+[2019-03-24 21:38:39,041]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-03-24 21:38:39,221]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":null,"msg":"登录成功"}，测试结果是：PASS
+[2019-03-24 21:38:39,223]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块11条用例，测试数据是{'mobilephone':'13541781424','amount':'100'}
+[2019-03-24 21:38:39,653]-[ERROR]-[log_module.py-test_log]-[日志信息]:出错啦错误是{'sta[152 chars]t': 'money', 'type': '1', 'regtime': '2019-03-[26 chars]值成功'} != {'sta[152 chars]t': '685700.00', 'type': '1', 'regtime': '2019[30 chars]值成功'}
+  {'code': '10001',
+   'data': {'id': 1123484,
+-           'leaveamount': 'money',
+?                           ^^^^^
+
++           'leaveamount': '685700.00',
+?                           ^^^^^^^^^
+
+            'mobilephone': '13541781424',
+            'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+            'regname': '小蜜蜂',
+            'regtime': '2019-03-10 23:53:21.0',
+            'type': '1'},
+   'msg': '充值成功',
+   'status': 1}
+[2019-03-24 21:38:39,699]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":{"id":1123484,"regname":"小蜜蜂","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13541781424","leaveamount":"685700.00","type":"1","regtime":"2019-03-10 23:53:21.0"},"msg":"充值成功"}，测试结果是：FAILED
+[2019-03-24 21:40:05,831]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-03-24 21:40:06,035]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":null,"msg":"登录成功"}，测试结果是：PASS
+[2019-03-24 21:40:06,036]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块11条用例，测试数据是{'mobilephone':'13541781424','amount':'100'}
+[2019-03-24 21:40:06,558]-[ERROR]-[log_module.py-test_log]-[日志信息]:出错啦错误是{'sta[152 chars]t': 'money', 'type': '1', 'regtime': '2019-03-[26 chars]值成功'} != {'sta[152 chars]t': '685800.00', 'type': '1', 'regtime': '2019[30 chars]值成功'}
+  {'code': '10001',
+   'data': {'id': 1123484,
+-           'leaveamount': 'money',
+?                           ^^^^^
+
++           'leaveamount': '685800.00',
+?                           ^^^^^^^^^
+
+            'mobilephone': '13541781424',
+            'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+            'regname': '小蜜蜂',
+            'regtime': '2019-03-10 23:53:21.0',
+            'type': '1'},
+   'msg': '充值成功',
+   'status': 1}
+[2019-03-24 21:40:06,603]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":{"id":1123484,"regname":"小蜜蜂","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13541781424","leaveamount":"685800.00","type":"1","regtime":"2019-03-10 23:53:21.0"},"msg":"充值成功"}，测试结果是：FAILED
+[2019-03-24 21:42:05,575]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-03-24 21:42:05,768]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":null,"msg":"登录成功"}，测试结果是：PASS
+[2019-03-24 21:42:05,769]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块11条用例，测试数据是{'mobilephone':'13541781424','amount':'100'}
+[2019-03-24 21:42:06,257]-[ERROR]-[log_module.py-test_log]-[日志信息]:出错啦错误是{'sta[158 chars]85900', 'type': '1', 'regtime': '2019-03-10 23[21 chars]值成功'} != {'sta[158 chars]85900.00', 'type': '1', 'regtime': '2019-03-10[24 chars]值成功'}
+  {'code': '10001',
+   'data': {'id': 1123484,
+-           'leaveamount': '685900',
++           'leaveamount': '685900.00',
+?                                 +++
+
+            'mobilephone': '13541781424',
+            'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+            'regname': '小蜜蜂',
+            'regtime': '2019-03-10 23:53:21.0',
+            'type': '1'},
+   'msg': '充值成功',
+   'status': 1}
+[2019-03-24 21:42:06,304]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":{"id":1123484,"regname":"小蜜蜂","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13541781424","leaveamount":"685900.00","type":"1","regtime":"2019-03-10 23:53:21.0"},"msg":"充值成功"}，测试结果是：FAILED
+[2019-03-24 21:42:59,047]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-03-24 21:42:59,241]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":null,"msg":"登录成功"}，测试结果是：PASS
+[2019-03-24 21:42:59,242]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块11条用例，测试数据是{'mobilephone':'13541781424','amount':'100'}
+[2019-03-24 21:42:59,674]-[ERROR]-[log_module.py-test_log]-[日志信息]:出错啦错误是{'sta[158 chars]8600000', 'type': '1', 'regtime': '2019-03-10 [23 chars]值成功'} != {'sta[158 chars]86000.00', 'type': '1', 'regtime': '2019-03-10[24 chars]值成功'}
+  {'code': '10001',
+   'data': {'id': 1123484,
+-           'leaveamount': '68600000',
++           'leaveamount': '686000.00',
+?                                 +
+
+            'mobilephone': '13541781424',
+            'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+            'regname': '小蜜蜂',
+            'regtime': '2019-03-10 23:53:21.0',
+            'type': '1'},
+   'msg': '充值成功',
+   'status': 1}
+[2019-03-24 21:42:59,721]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":{"id":1123484,"regname":"小蜜蜂","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13541781424","leaveamount":"686000.00","type":"1","regtime":"2019-03-10 23:53:21.0"},"msg":"充值成功"}，测试结果是：FAILED
+[2019-03-24 21:43:28,217]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-03-24 21:43:28,387]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":null,"msg":"登录成功"}，测试结果是：PASS
+[2019-03-24 21:43:28,388]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块11条用例，测试数据是{'mobilephone':'13541781424','amount':'100'}
+[2019-03-24 21:43:28,810]-[ERROR]-[log_module.py-test_log]-[日志信息]:出错啦错误是{'sta[158 chars]861000.00', 'type': '1', 'regtime': '2019-03-1[25 chars]值成功'} != {'sta[158 chars]86100.00', 'type': '1', 'regtime': '2019-03-10[24 chars]值成功'}
+  {'code': '10001',
+   'data': {'id': 1123484,
+-           'leaveamount': '6861000.00',
+?                                 -
+
++           'leaveamount': '686100.00',
+            'mobilephone': '13541781424',
+            'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+            'regname': '小蜜蜂',
+            'regtime': '2019-03-10 23:53:21.0',
+            'type': '1'},
+   'msg': '充值成功',
+   'status': 1}
+[2019-03-24 21:43:28,860]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":{"id":1123484,"regname":"小蜜蜂","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13541781424","leaveamount":"686100.00","type":"1","regtime":"2019-03-10 23:53:21.0"},"msg":"充值成功"}，测试结果是：FAILED
+[2019-03-24 21:44:21,622]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-03-24 21:44:21,845]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":null,"msg":"登录成功"}，测试结果是：PASS
+[2019-03-24 21:44:21,846]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块11条用例，测试数据是{'mobilephone':'13541781424','amount':'100'}
+[2019-03-24 21:44:22,246]-[ERROR]-[log_module.py-test_log]-[日志信息]:出错啦错误是{'sta[160 chars]200.0', 'type': '1', 'regtime': '2019-03-10 23[21 chars]值成功'} != {'sta[160 chars]200.00', 'type': '1', 'regtime': '2019-03-10 2[22 chars]值成功'}
+  {'code': '10001',
+   'data': {'id': 1123484,
+-           'leaveamount': '686200.0',
++           'leaveamount': '686200.00',
+?                                   +
+
+            'mobilephone': '13541781424',
+            'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+            'regname': '小蜜蜂',
+            'regtime': '2019-03-10 23:53:21.0',
+            'type': '1'},
+   'msg': '充值成功',
+   'status': 1}
+[2019-03-24 21:44:22,291]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":{"id":1123484,"regname":"小蜜蜂","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13541781424","leaveamount":"686200.00","type":"1","regtime":"2019-03-10 23:53:21.0"},"msg":"充值成功"}，测试结果是：FAILED
+[2019-03-24 21:49:36,772]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-03-24 21:49:36,990]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":null,"msg":"登录成功"}，测试结果是：PASS
+[2019-03-24 21:49:36,991]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块11条用例，测试数据是{'mobilephone':'13541781424','amount':'100'}
+[2019-03-24 21:49:37,520]-[ERROR]-[log_module.py-test_log]-[日志信息]:出错啦错误是{'sta[158 chars]86300', 'type': '1', 'regtime': '2019-03-10 23[21 chars]值成功'} != {'sta[158 chars]86300.00', 'type': '1', 'regtime': '2019-03-10[24 chars]值成功'}
+  {'code': '10001',
+   'data': {'id': 1123484,
+-           'leaveamount': '686300',
++           'leaveamount': '686300.00',
+?                                 +++
+
+            'mobilephone': '13541781424',
+            'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+            'regname': '小蜜蜂',
+            'regtime': '2019-03-10 23:53:21.0',
+            'type': '1'},
+   'msg': '充值成功',
+   'status': 1}
+[2019-03-24 21:49:37,567]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":{"id":1123484,"regname":"小蜜蜂","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13541781424","leaveamount":"686300.00","type":"1","regtime":"2019-03-10 23:53:21.0"},"msg":"充值成功"}，测试结果是：FAILED
+[2019-03-24 21:52:16,596]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-03-24 21:52:16,829]-[ERROR]-[log_module.py-test_log]-[日志信息]:出错啦错误是'testCases' object has no attribute 'assertis'
+[2019-03-24 21:52:16,882]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":null,"msg":"登录成功"}，测试结果是：FAILED
+[2019-03-24 21:52:16,885]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块11条用例，测试数据是{'mobilephone':'13541781424','amount':'100'}
+[2019-03-24 21:52:17,360]-[ERROR]-[log_module.py-test_log]-[日志信息]:出错啦错误是'testCases' object has no attribute 'assertis'
+[2019-03-24 21:52:17,407]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":{"id":1123484,"regname":"小蜜蜂","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13541781424","leaveamount":"686400.00","type":"1","regtime":"2019-03-10 23:53:21.0"},"msg":"充值成功"}，测试结果是：FAILED
+[2019-03-24 21:53:07,854]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-03-24 21:53:08,022]-[ERROR]-[log_module.py-test_log]-[日志信息]:出错啦错误是'testCases' object has no attribute 'assertin'
+[2019-03-24 21:53:08,067]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":null,"msg":"登录成功"}，测试结果是：FAILED
+[2019-03-24 21:53:08,070]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块11条用例，测试数据是{'mobilephone':'13541781424','amount':'100'}
+[2019-03-24 21:53:08,523]-[ERROR]-[log_module.py-test_log]-[日志信息]:出错啦错误是'testCases' object has no attribute 'assertin'
+[2019-03-24 21:53:08,570]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":{"id":1123484,"regname":"小蜜蜂","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13541781424","leaveamount":"686500.00","type":"1","regtime":"2019-03-10 23:53:21.0"},"msg":"充值成功"}，测试结果是：FAILED
+[2019-03-24 21:53:40,805]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-03-24 21:53:40,991]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":null,"msg":"登录成功"}，测试结果是：PASS
+[2019-03-24 21:53:40,993]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块11条用例，测试数据是{'mobilephone':'13541781424','amount':'100'}
+[2019-03-24 21:53:41,446]-[ERROR]-[log_module.py-test_log]-[日志信息]:出错啦错误是{'sta[158 chars]86600', 'type': '1', 'regtime': '2019-03-10 23[21 chars]值成功'} != {'sta[158 chars]86600.00', 'type': '1', 'regtime': '2019-03-10[24 chars]值成功'}
+  {'code': '10001',
+   'data': {'id': 1123484,
+-           'leaveamount': '686600',
++           'leaveamount': '686600.00',
+?                                 +++
+
+            'mobilephone': '13541781424',
+            'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+            'regname': '小蜜蜂',
+            'regtime': '2019-03-10 23:53:21.0',
+            'type': '1'},
+   'msg': '充值成功',
+   'status': 1}
+[2019-03-24 21:53:41,492]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":{"id":1123484,"regname":"小蜜蜂","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13541781424","leaveamount":"686600.00","type":"1","regtime":"2019-03-10 23:53:21.0"},"msg":"充值成功"}，测试结果是：FAILED
+[2019-03-24 21:54:50,065]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-03-24 21:54:50,237]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":null,"msg":"登录成功"}，测试结果是：PASS
+[2019-03-24 21:54:50,238]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块11条用例，测试数据是{'mobilephone':'13541781424','amount':'100'}
+[2019-03-24 21:54:50,662]-[ERROR]-[log_module.py-test_log]-[日志信息]:出错啦错误是{'sta[158 chars]86700', 'type': '1', 'regtime': '2019-03-10 23[21 chars]值成功'} != {'sta[158 chars]86700.00', 'type': '1', 'regtime': '2019-03-10[24 chars]值成功'}
+  {'code': '10001',
+   'data': {'id': 1123484,
+-           'leaveamount': '686700',
++           'leaveamount': '686700.00',
+?                                 +++
+
+            'mobilephone': '13541781424',
+            'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+            'regname': '小蜜蜂',
+            'regtime': '2019-03-10 23:53:21.0',
+            'type': '1'},
+   'msg': '充值成功',
+   'status': 1}
+[2019-03-24 21:54:50,709]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":{"id":1123484,"regname":"小蜜蜂","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13541781424","leaveamount":"686700.00","type":"1","regtime":"2019-03-10 23:53:21.0"},"msg":"充值成功"}，测试结果是：FAILED
+[2019-03-24 21:55:32,667]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-03-24 21:55:32,670]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块11条用例，测试数据是{'mobilephone':'13541781424','amount':'100'}
+[2019-03-24 21:55:47,631]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-03-24 21:55:47,839]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":null,"msg":"登录成功"}，测试结果是：PASS
+[2019-03-24 21:55:47,840]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块11条用例，测试数据是{'mobilephone':'13541781424','amount':'100'}
+[2019-03-24 21:55:48,373]-[ERROR]-[log_module.py-test_log]-[日志信息]:出错啦错误是{'sta[158 chars]86800', 'type': '1', 'regtime': '2019-03-10 23[21 chars]值成功'} != {'sta[158 chars]86800.00', 'type': '1', 'regtime': '2019-03-10[24 chars]值成功'}
+  {'code': '10001',
+   'data': {'id': 1123484,
+-           'leaveamount': '686800',
++           'leaveamount': '686800.00',
+?                                 +++
+
+            'mobilephone': '13541781424',
+            'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+            'regname': '小蜜蜂',
+            'regtime': '2019-03-10 23:53:21.0',
+            'type': '1'},
+   'msg': '充值成功',
+   'status': 1}
+[2019-03-24 21:55:48,420]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":{"id":1123484,"regname":"小蜜蜂","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13541781424","leaveamount":"686800.00","type":"1","regtime":"2019-03-10 23:53:21.0"},"msg":"充值成功"}，测试结果是：FAILED
+[2019-03-24 21:56:10,042]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-03-24 21:56:10,259]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":null,"msg":"登录成功"}，测试结果是：PASS
+[2019-03-24 21:56:10,260]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块11条用例，测试数据是{'mobilephone':'13541781424','amount':'100'}
+[2019-03-24 21:56:10,667]-[ERROR]-[log_module.py-test_log]-[日志信息]:出错啦错误是{'sta[158 chars]86900', 'type': '1', 'regtime': '2019-03-10 23[21 chars]值成功'} != {'sta[158 chars]86900.00', 'type': '1', 'regtime': '2019-03-10[24 chars]值成功'}
+  {'code': '10001',
+   'data': {'id': 1123484,
+-           'leaveamount': '686900',
++           'leaveamount': '686900.00',
+?                                 +++
+
+            'mobilephone': '13541781424',
+            'pwd': 'E10ADC3949BA59ABBE56E057F20F883E',
+            'regname': '小蜜蜂',
+            'regtime': '2019-03-10 23:53:21.0',
+            'type': '1'},
+   'msg': '充值成功',
+   'status': 1}
+[2019-03-24 21:56:10,714]-[INFO]-[log_module.py-test_log]-[日志信息]:实际结果是{"status":1,"code":"10001","data":{"id":1123484,"regname":"小蜜蜂","pwd":"E10ADC3949BA59ABBE56E057F20F883E","mobilephone":"13541781424","leaveamount":"686900.00","type":"1","regtime":"2019-03-10 23:53:21.0"},"msg":"充值成功"}，测试结果是：FAILED

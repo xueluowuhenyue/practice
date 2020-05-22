@@ -1,0 +1,10 @@
+[2019-08-09 21:19:23,673]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-08-09 21:19:24,451]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块7条用例，测试数据是{'mobilephone':'4','pwd':'123456'}
+[2019-08-09 21:19:24,830]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块8条用例，测试数据是{'mobilephone':'13541781424','pwd':''}
+[2019-08-09 21:19:25,610]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块9条用例，测试数据是{'mobilephone':'13541781424','pwd':'1234567'}
+[2019-08-09 21:19:26,369]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块10条用例，测试数据是{'mobilephone':'18296208190','pwd':'123456'}
+[2019-08-09 21:19:27,111]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块11条用例，测试数据是{'mobilephone':'13541781424','amount':'10000'}
+[2019-08-09 21:19:27,909]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块12条用例，测试数据是{'mobilephone':'','amount':'1000'}
+[2019-08-09 21:19:28,722]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块13条用例，测试数据是{'mobilephone':'13541781424','amount':' '}
+[2019-08-09 21:19:29,209]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块14条用例，测试数据是{'mobilephone':'23541781424','amount':'10003'}
+[2019-08-09 21:19:29,602]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行recharge模块15条用例，测试数据是{'mobilephone':'13541781424','amount':'-1000'}

@@ -1,0 +1,10 @@
+# -*- coding:utf-8 -*-
+
+platformName: Android                                          # 操作系统
+platformVersion : 8.1                                          # 版本
+deviceName : c686d89b                                         #Android Emulator
+appActivity : com.xxzb.fenwoo.activity.addition.WelcomeActivity   #com.tencent.mm.ui.LauncherUI   # 入口
+appPackage : com.xxzb.fenwoo              #com.tencent.mm                                      # 包名
+# app: C:\freshingair1.2.5.apk        # C:\weixin.apk                                # 文件路径
+# automationName : UiAutomator2
+noReset : False                                             # false重置,True不重置

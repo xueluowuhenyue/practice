@@ -1,0 +1,2 @@
+[2019-05-11 08:37:37,975]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}
+[2019-05-11 09:12:58,495]-[INFO]-[log_module.py-test_log]-[日志信息]:正在执行login模块6条用例，测试数据是{'mobilephone':'13541781424','pwd':'123456'}

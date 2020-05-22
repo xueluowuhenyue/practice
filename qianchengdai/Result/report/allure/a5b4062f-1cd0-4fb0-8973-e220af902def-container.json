@@ -1,0 +1,1 @@
+{"uuid": "b58c94fc-e3c6-40ce-ba35-3e11444527a1", "children": ["bc92044b-f8b6-4a61-98f5-823186e2bd65"], "befores": [{"name": "init_bid", "status": "passed", "start": 1558759497713, "stop": 1558759548822}], "afters": [{"name": "init_bid::0", "status": "passed", "start": 1558759579710, "stop": 1558759582685}], "start": 1558759497713, "stop": 1558759582685}
