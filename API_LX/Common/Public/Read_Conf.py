@@ -18,5 +18,5 @@ class DyConf:
 
 
 if __name__ == '__main__':
-    res=DyConf(Project_path.Conf_path).read_str('LOG','logger_name')
+    res=DyConf(Project_path.Conf_path).read_str('LOG', 'logger_name')
     print(res)

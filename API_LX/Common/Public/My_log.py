@@ -8,12 +8,12 @@ class Mylog:
     '''这是一个日志类'''
 
     def __init__(self):
-        self.logger_level=DyConf(Project_path.Conf_path).read_str('LOG','logger_level')
-        self.file_level=DyConf(Project_path.Conf_path).read_str('LOG','file_level')
-        self.file_name=DyConf(Project_path.Conf_path).read_str('LOG','file_name')
-        self.formatter=DyConf(Project_path.Conf_path).read_str('LOG','formatter')
+        self.logger_level = DyConf(Project_path.Conf_path).read_str('LOG', 'logger_level')
+        self.file_level = DyConf(Project_path.Conf_path).read_str('LOG', 'file_level')
+        self.file_name = DyConf(Project_path.Conf_path).read_str('LOG', 'file_name')
+        self.formatter = DyConf(Project_path.Conf_path).read_str('LOG', 'formatter')
 
-    def mylog(self,level,msg):
+    def mylog(self, level, msg):
         # 定义一个日志收集器
         my_logger=logging.getLogger(self.file_name)
         # 设置日志的级别
@@ -62,7 +62,7 @@ class Mylog:
         self. mylog('ERROR',msg)
 
     def critical(self,msg):
-        self. mylog('CRITICAL',msg)
+        self. mylog('CRITICAL', msg)
 
 
 if __name__ == '__main__':
